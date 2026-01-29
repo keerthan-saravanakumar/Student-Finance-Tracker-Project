@@ -1,1 +1,118 @@
+body {
+  background-color: #450920;
+  font-family: Arial,sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #F9DBBD;
+}
+
+h1 {
+  text-align:  center;
+  margin-bottom: 25px;
+    color: #F9DBBD;
+}
+.summary {
+   display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+.summary div {
+  background-color: #A53860;
+   padding: 15px;
+  width: 30%;
+   text-align: center;
+  border-radius: 10px;
+    color: #F9DBBD;
+}
+
+.summary h3 {
+  margin: 5px 0;
+}
+
+.summary p {
+  font-size: 28px;
+  font-weight: bold;
+   margin-top: 8px;
+}
+.card {
+   background-color: #A53860;
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  color: #F9DBBD;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #F9DBBD;
+}
+form {
+  display: flex;
+   flex-direction: column;
+  gap: 12px;
+}
+
+input, select {
+  padding: 10px;
+   border-radius: 6px;
+  border: none;
+   font-size: 14px;
+   background-color: #F9DBBD;
+  color: #450920;
+}
+button {
+  padding: 10px;
+   background-color: #DA627D;
+  border: none;
+ border-radius: 6px;
+  cursor: pointer;
+   font-weight: bold;
+  color: #450920;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+.filter {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.filter button {
+  margin: 5px;
+  width: 110px;
+   border-radius: 25px;
+  background-color: #FFA5AB;
+     color: #450920;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #F9DBBD;
+   margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+  color: #450920;
+}
+.income {
+  border-left: 6px solid #22c55e;
+}
+
+.expense {
+  border-left: 6px solid #ef4444;
+}
+.delete-btn {
+    background-color: #DA627D;
+  color: #450920;
+   border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+   cursor: pointer;
+}
 

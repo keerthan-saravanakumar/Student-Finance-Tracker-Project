@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Finance Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Student Finance & Budget Tracker</h1>
+
+  <div class="summary">
+    <div>
+      <h3>Total Income</h3>
+      <p id="totInc">0</p>
+    </div>
+
+    <div>
+      <h3>Total Expense</h3>
+      <p id="totExp">0</p>
+    </div>
+
+    <div>
+      <h3>Balance</h3>
+      <p id="bal">0</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Add transaction</h2>
+
+    <form id="fForm">
+      <input type="number" id="amtIn" placeholder="Amount">
+      
+      <select id="typIn">
+        <option value="">Select Type</option>
+          <option value= "income">Income</option>
+        <option value= "expense">Expense</option>
+      </select>
+
+       <input type="text" id="catIn" placeholder="Category (Food, Travel...)">
+      <input type= "date" id="dateIn">
+
+      <button type="submit">Add</button>
+    </form>
+  </div>
+
+  <div class="filter">
+      <button id="allBtn">All</button>
+     <button id="incBtn">Income</button>
+        <button id="expBtn">Expense</button>
+  </div>
+
+  <div class="card">
+    <h2>Transactions</h2>
+    <ul id="finList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
